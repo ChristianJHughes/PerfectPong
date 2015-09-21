@@ -67,6 +67,7 @@ window.onload = function ()
 
     // A function that updates the pressed key object while the key is pressed down.
     onKeydown: function(eventListenerPassedThisIn) {
+      eventListenerPassedThisIn.preventDefault();
       this.pressedKey[eventListenerPassedThisIn.keyCode] = true;
     },
     // Deletes the keyCode property of the key that was just released from pressedKey.
