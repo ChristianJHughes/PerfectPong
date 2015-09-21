@@ -1,5 +1,7 @@
-# PerfectPong
+# Perfect Pong
 <b>A simple, lightweight version of the classic arcade game "Pong."</b>
+
+<b><i>Play the game on its project page [here](http://christianjhughes.github.io/PerfectPong).</b></i>
 
 Web based using vanilla HTML5 and Javascript. Rendering via the HTML Canvas ensures compatability will all modern browsers.
 
